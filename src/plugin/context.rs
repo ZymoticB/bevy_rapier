@@ -13,7 +13,6 @@ use rapier::prelude::{
 use crate::geometry::{Collider, PointProjection, RayIntersection, Toi};
 use crate::math::{Rot, Vect};
 use crate::pipeline::{CollisionEvent, ContactForceEvent, EventQueue, QueryFilter};
-use bevy::prelude::{Entity, EventWriter, GlobalTransform, Query};
 
 use crate::control::{CharacterCollision, MoveShapeOptions, MoveShapeOutput};
 use crate::dynamics::TransformInterpolation;

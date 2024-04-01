@@ -32,8 +32,6 @@ use {
 };
 
 use crate::control::CharacterCollision;
-#[cfg(feature = "dim2")]
-use bevy::math::Vec3Swizzles;
 
 /// Components that will be updated after a physics step.
 pub type RigidBodyWritebackComponents<'a> = (

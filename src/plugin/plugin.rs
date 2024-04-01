@@ -1,10 +1,7 @@
-use crate::pipeline::{CollisionEvent, ContactForceEvent};
-use crate::plugin::configuration::SimulationToRenderTime;
-use crate::plugin::{systems, RapierConfiguration, RapierContext};
 use crate::prelude::*;
 use bevy::{
     ecs::{
-        event::{event_update_system, Events},
+        event::event_update_system,
         schedule::{ScheduleLabel, SystemConfigs},
         system::SystemParamItem,
     },
